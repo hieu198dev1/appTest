@@ -152,26 +152,102 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="card glass">
               <h3 className="text-xl font-semibold mb-6">Frontend Development</h3>
-              <div className="space-y-4">
-                <div className="relative pt-1">
-                  <div className="flex mb-2 items-center justify-between">
-                    <div>
-                      <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full bg-blue-500/20">
-                        React & Next.js
-                      </span>
-                    </div>
-                    <div className="text-right">
-                      <span className="text-xs font-semibold inline-block">90%</span>
-                    </div>
+              <div className="space-y-6">
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">Core Technologies</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">HTML5</span>
+                    <span className="skill-badge">CSS3</span>
+                    <span className="skill-badge">JavaScript</span>
+                    <span className="skill-badge">jQuery</span>
                   </div>
+                </div>
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">Modern Frameworks</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">React.js</span>
+                    <span className="skill-badge">Next.js</span>
+                  </div>
+                </div>
+                <div className="relative pt-1">
+                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
+                    <div className="w-[95%] shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-blue-500 to-purple-500"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card glass">
+              <h3 className="text-xl font-semibold mb-6">Backend Development</h3>
+              <div className="space-y-6">
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">PHP Ecosystem</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">PHP</span>
+                    <span className="skill-badge">Laravel</span>
+                    <span className="skill-badge">WordPress</span>
+                  </div>
+                </div>
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">JavaScript Backend</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">Node.js</span>
+                    <span className="skill-badge">Express.js</span>
+                  </div>
+                </div>
+                <div className="relative pt-1">
                   <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
                     <div className="w-[90%] shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-blue-500 to-purple-500"></div>
                   </div>
                 </div>
-                {/* Add more skills with progress bars */}
               </div>
             </div>
-            {/* Add more skill categories */}
+
+            <div className="card glass">
+              <h3 className="text-xl font-semibold mb-6">Database & Analytics</h3>
+              <div className="space-y-6">
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">SQL Databases</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">PostgreSQL</span>
+                    <span className="skill-badge">MySQL</span>
+                  </div>
+                </div>
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">Data Analytics</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">BigQuery</span>
+                    <span className="skill-badge">Data Analysis</span>
+                  </div>
+                </div>
+                <div className="relative pt-1">
+                  <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-gray-700">
+                    <div className="w-[85%] shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gradient-to-r from-blue-500 to-purple-500"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="card glass">
+              <h3 className="text-xl font-semibold mb-6">Development Tools</h3>
+              <div className="space-y-6">
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">Version Control</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">Git</span>
+                    <span className="skill-badge">GitHub</span>
+                  </div>
+                </div>
+                <div className="skill-group">
+                  <h4 className="text-lg text-blue-400 mb-3">Development Environment</h4>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="skill-badge">VS Code</span>
+                    <span className="skill-badge">Docker</span>
+                    <span className="skill-badge">npm/composer</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
